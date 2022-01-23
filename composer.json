@@ -1,7 +1,7 @@
 {
-	"name": "baraja-core/template",
-	"description": "This is a template package.",
-	"homepage": "https://github.com/baraja-core/template",
+	"name": "baraja-core/simple-template",
+	"description": "Simple PHP templating system for user editable templates.",
+	"homepage": "https://github.com/baraja-core/simple-template",
 	"authors": [
 		{
 			"name": "Jan Barášek",
