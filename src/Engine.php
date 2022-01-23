@@ -65,7 +65,7 @@ final class Engine
 
 
 	/**
-	 * @return array<int, VariableMetaInfo>
+	 * @return array<string, VariableMetaInfo>
 	 * @throws InvalidTemplateIntegrityException
 	 */
 	public function parseAvailableVariables(TemplateData $data): array

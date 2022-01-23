@@ -79,14 +79,4 @@ final class Parser
 
 		return array_unique($return);
 	}
-
-
-	/**
-	 * @return never-return
-	 * @throws InvalidTemplateIntegrityException
-	 */
-	private function error(string $message): void
-	{
-		throw new InvalidTemplateIntegrityException($message);
-	}
 }
