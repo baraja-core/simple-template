@@ -20,7 +20,7 @@ final class Helpers
 		}
 
 		throw new \InvalidArgumentException(
-			sprintf('Method name "%s" is not in valid format. Did you start name with "get" or "is"?', $name)
+			sprintf('Method name "%s" is not in valid format. Did you start name with "get" or "is"?', $name),
 		);
 	}
 }

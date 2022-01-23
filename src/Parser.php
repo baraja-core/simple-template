@@ -29,7 +29,7 @@ final class Parser
 					sprintf(
 						'Template data object can not implement static methods, because it can break context. But method "%s" has been implemented.',
 						$name,
-					)
+					),
 				);
 				continue;
 			}
